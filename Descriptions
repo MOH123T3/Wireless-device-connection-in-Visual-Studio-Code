@@ -1,0 +1,29 @@
+- Install the ADB Commanads for VSCode extension.
+-----------------------------------------------------------------------------
+
+
+- Now you have to add the path correctly to the 
+        platform-tools
+
+in my case it’s
+
+“C:\Users\Hardy1\AppData\Local\Android\Sdk\platform-tools “
+-----------------------------------------------------------------------------
+
+
+- Enable usb debugging in your device .
+------------------------------------------------------------------------------
+
+- In the VScode hit Ctrl+shift+p and select ADB::Connect to device IP
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+--------------------------------------------------------------------------------------
+- you can connect your phone without any extension simply by followings these steps :
+
+   1.plug your phone via usb.
+
+  2.open your vs terminal ( you can open the terminal using Ctrl+ `)
+
+  adb tcpip 5555
+  adb connect [YOUR_IP_address]
